@@ -1,0 +1,10 @@
+This is from the original code, checked out from the author's repository with:
+
+    hg clone https://bitbucket.org/kevglass/slick
+
+The code for this Slick library is located in trunk/slick.
+
+The license is BSD.
+
+Various parts of the original codebase are not included in this branch.
+And the build scripts have been changed to use maven.
