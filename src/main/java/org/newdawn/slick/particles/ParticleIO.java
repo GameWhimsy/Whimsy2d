@@ -197,8 +197,7 @@ public class ParticleIO {
 			}
 			
          if (system == null) {
-         system = new ParticleSystem("org/newdawn/slick/data/particle.tga",
-					2000, mask);
+         system = new ParticleSystem("images/particle.tga", 2000, mask);
          }
 			boolean additive = "true".equals(element.getAttribute("additive"));
 			if (additive) {

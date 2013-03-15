@@ -144,7 +144,7 @@ public class Graphics {
 			AccessController.doPrivileged(new PrivilegedAction() {
 				public Object run() {
 					try {
-						DEFAULT_FONT = new AngelCodeFont("org/newdawn/slick/data/defaultfont.fnt", "org/newdawn/slick/data/defaultfont.png");
+						DEFAULT_FONT = new AngelCodeFont("fonts/defaultfont.fnt", "fonts/defaultfont.png");
 					} catch (SlickException e) {
 						Log.error(e);
 					}

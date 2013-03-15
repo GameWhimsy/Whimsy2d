@@ -26,16 +26,6 @@
   </repositories>
 
   <build>
-    <sourceDirectory>src</sourceDirectory>
-    <resources>
-      <resource>
-        <targetPath>org/newdawn/slick/data/</targetPath>
-        <directory>${basedir}/src/org/newdawn/slick/data/</directory>
-        <excludes>
-          <exclude>package.html</exclude>
-        </excludes>
-      </resource>
-    </resources>
     <extensions>
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
